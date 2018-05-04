@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b386d5715bce794abbef852acc8e815, type: 3}
+  m_Name: CrowdLeaderPatrol
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 9bb7e591aff3a3a40ab9072e5ff41e88, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 934cbbbae4a5a6e4fa3e65d8f96150b6, type: 2}
+    nextState: {fileID: 11400000}
+    lastState: {fileID: 11400000}
+  Icon: {fileID: 0}
+  index: 0
